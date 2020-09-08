@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: 12rem;
+  padding: 2rem 0;
+
+  a {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav {
+    height: 6rem;
+    padding: 0.5rem 0;
+
+    a {
+      width: 15rem;
+    }
+  }
+}
