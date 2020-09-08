@@ -14,6 +14,26 @@
   display: flex;
   flex-direction: column;
 
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 66%;
+
+    .headerContent {
+      flex: 1;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+      z-index: 1;
+      transform: translateY(-10%);
+    }
+  }
+
   main {
     position: relative;
     flex: 1;

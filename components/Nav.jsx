@@ -7,7 +7,7 @@ const Nav = () => (
   <nav className={styles.nav}>
     <Link href="/">
       <a>
-        <Image src="logo.png" alt="Logo" />
+        <Image src="logo.png" type="image/png" alt="Logo" noBlur />
       </a>
     </Link>
   </nav>

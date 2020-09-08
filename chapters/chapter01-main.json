@@ -1,7 +1,7 @@
 {
   "guild": {
     "id": "707605489713807401",
-    "name": "Alter Self: Play-by-Post",
+    "name": "Alter Self",
     "iconUrl": "https://cdn.discordapp.com/icons/707605489713807401/1111fa81b070612d2bb0b81ddcbf553d.png"
   },
   "channel": {
@@ -12,46 +12,10 @@
     "topic": "Where the magic happens"
   },
   "dateRange": {
-    "after": null,
+    "after": "2020-05-08T00:00:00-04:00",
     "before": "2020-05-13T21:26:00-04:00"
   },
   "messages": [
-    {
-      "id": "707711791081455667",
-      "type": "Default",
-      "timestamp": "2020-05-06T21:53:59.643+00:00",
-      "timestampEdited": null,
-      "isPinned": false,
-      "content": "",
-      "author": {
-        "id": "261302296103747584",
-        "name": "Avrae",
-        "discriminator": "6944",
-        "isBot": true,
-        "avatarUrl": "https://cdn.discordapp.com/avatars/261302296103747584/b4926b52f7f1c966e01e25f0b33253f1.png"
-      },
-      "attachments": [],
-      "embeds": [
-        {
-          "title": "Prologue: The Call to Adventure",
-          "url": null,
-          "timestamp": null,
-          "description": "A new threat looms over the Northern Sword Coast!  Whispers tell of a  **White Dragon** spotted patrolling the skies around **Icespire Peak** in the Sword Mountains. With local guards stretched thin preparing for the worst, several of the small settlements surrounding the Sword Mountains have put out the call for capable adventurers who might lend their aid relieving the tension that these Dragon-sightings have wrought.\n\nOne such settlement is **Leilon**, a small mining town sandwiched between coast and mountain, just north of the dreaded Mere of Dead Men - a convenient resting place for travellers making their way along the High Road from Waterdeep to Neverwinter. It is here that you were drawn by rumours of work to be had and wealth to be gained, and it is here that your adventure begins.",
-          "author": {
-            "name": "Dungeon Master",
-            "url": null,
-            "iconUrl": "https://cdn.discordapp.com/avatars/169249000829091850/f393adad4159ad4d428139917479690d.webp?size=1024"
-          },
-          "image": {
-            "url": "https://slyflourish.com/images/phandalin.jpg",
-            "width": 1200,
-            "height": 702
-          },
-          "fields": []
-        }
-      ],
-      "reactions": []
-    },
     {
       "id": "708704763780268053",
       "type": "Default",
@@ -152,7 +116,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -170,7 +134,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -250,7 +214,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -366,7 +330,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -1984,7 +1948,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -3977,7 +3941,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -5546,7 +5510,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -6872,7 +6836,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -7117,7 +7081,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -7300,7 +7264,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -7663,7 +7627,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -8001,7 +7965,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -8019,7 +7983,7 @@
       "author": {
         "id": "169249000829091850",
         "name": "Pleebz",
-        "discriminator": "6946",
+        "discriminator": "0001",
         "isBot": false,
         "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
       },
@@ -11974,5 +11938,5 @@
       "reactions": []
     }
   ],
-  "messageCount": 356
+  "messageCount": 355
 }

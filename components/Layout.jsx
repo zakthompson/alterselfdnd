@@ -6,16 +6,30 @@ import Nav from './Nav';
 import Footer from './Footer';
 import styles from '../styles/Layout.module.scss';
 
-const Layout = ({ background, title, children }) => {
+const Layout = ({ background, title, header, description, children }) => {
   const { src, type, position, crop } = background;
   return (
     <div className={styles.root}>
       <Head title={title} />
-      {background && (
-        <Image bg src={src} type={type} position={position} crop={crop} />
-      )}
       <div className={styles.container}>
-        <Nav />
+        <header>
+          {background.src && (
+            <Image
+              bg
+              src={src}
+              type={type}
+              position={position}
+              crop={crop}
+              alt="Background"
+              fade
+            />
+          )}
+          <Nav />
+          <div className={styles.headerContent}>
+            <h1>{header}</h1>
+            <h4>{description}</h4>
+          </div>
+        </header>
         <main>{children}</main>
         <Footer />
       </div>
@@ -36,11 +50,14 @@ Layout.propTypes = {
     }),
   }),
   title: PropTypes.string.isRequired,
+  header: PropTypes.string.isRequired,
+  description: PropTypes.string,
   children: PropTypes.node.isRequired,
 };
 
 Layout.defaultProps = {
-  background: null,
+  background: {},
+  description: null,
 };
 
 export default Layout;

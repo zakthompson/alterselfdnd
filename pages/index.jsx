@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import FullscreenLayout from '../components/FullscreenLayout';
 import Hero from '../components/Hero';
 
 export default function Home() {
   return (
-    <Layout
+    <FullscreenLayout
       background={{
         src: 'homehero.jpg',
         type: 'image/jpg',
@@ -14,6 +14,6 @@ export default function Home() {
       title="Alter Self"
     >
       <Hero />
-    </Layout>
+    </FullscreenLayout>
   );
 }

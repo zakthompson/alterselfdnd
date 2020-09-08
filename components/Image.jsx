@@ -4,21 +4,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../styles/Image.module.scss';
 
-const Image = ({ bg, src, type, alt, position, crop }) => (
+const Image = ({ bg, src, type, alt, position, crop, noBlur, fade }) => (
   <div
     className={styles.imageWrap}
     style={{
       position: bg ? 'absolute' : 'relative',
     }}
   >
-    <img
-      className={styles.placeholder}
-      src={require(`../assets/images/${src}?lqip`)}
-      alt={alt}
-      style={{
-        objectPosition: position || 'center',
-      }}
-    />
+    {!noBlur && (
+      <img
+        className={styles.placeholder}
+        src={require(`../assets/images/${src}?lqip`)}
+        alt={alt}
+        style={{
+          objectPosition: position || 'center',
+        }}
+      />
+    )}
     <picture
       className={styles.image}
       style={{
@@ -42,7 +44,7 @@ const Image = ({ bg, src, type, alt, position, crop }) => (
         }}
       />
     </picture>
-    {bg && <div className={styles.overlay} />}
+    {bg && <div className={`${styles.overlay} ${fade ? styles.fade : ''}`} />}
   </div>
 );
 
@@ -58,12 +60,16 @@ Image.propTypes = {
     bottom: PropTypes.number,
     left: PropTypes.number,
   }),
+  noBlur: PropTypes.bool,
+  fade: PropTypes.bool,
 };
 
 Image.defaultProps = {
   bg: false,
   position: null,
   crop: {},
+  noBlur: false,
+  fade: false,
 };
 
 export default Image;

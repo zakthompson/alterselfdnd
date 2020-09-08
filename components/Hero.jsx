@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.heroText}>
-        <h1>A 5th-Edition Dungeons &amp; Dragons adventure.</h1>
+        <h2>A 5th-Edition Dungeons &amp; Dragons adventure.</h2>
         <p>
           Hang out with the community and watch the narrative unfold in
           real-time. Or, read through new chapters as they&apos;re released in
