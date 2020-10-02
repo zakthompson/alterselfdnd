@@ -1,8 +1,7 @@
 import React from 'react';
-import styles from '../styles/Footer.module.scss';
 
 const Footer = () => (
-  <footer className={styles.footer}>
+  <footer className="flex items-end justify-between text-xs p-3 h-32">
     <div>&#169; 2020 Fire Inside Studios</div>
     <div>
       Artwork by{' '}

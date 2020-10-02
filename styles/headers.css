@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply m-0 font-normal;
+  }
+
+  h1 {
+    @apply text-6xl;
+  }
+
+  h2 {
+    @apply text-5xl;
+  }
+
+  h3 {
+    @apply mt-5 text-4xl;
+  }
+
+  h4 {
+    @apply mt-6 text-3xl;
+  }
+
+  @screen md {
+    h1 {
+      @apply text-7xl;
+    }
+
+    h3 {
+      @apply text-3xl;
+    }
+
+    h4 {
+      @apply text-xl;
+    }
+  }
+}

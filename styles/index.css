@@ -1,0 +1,67 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import './headers.css';
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html,
+  body,
+  #__next {
+    @apply w-full h-full p-0 m-0;
+  }
+
+  body {
+    @apply leading-tight text-white bg-black font-body;
+  }
+
+  a {
+    @apply no-underline text-gold;
+  }
+
+  p {
+    @apply mx-0 my-6;
+  }
+
+  .blur {
+    filter: blur(25px);
+  }
+
+  .bg-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .bg-overlay-fade {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7) 30%);
+  }
+
+  .hover-dim:hover {
+    filter: brightness(0.8);
+  }
+
+  @screen md {
+    body {
+      @apply text-lg;
+    }
+  }
+}
+
+@layer components {
+  .nav-fade {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  }
+
+  .hero-text {
+    @apply w-full mx-3 mt-6;
+  }
+
+  @screen md {
+    .hero-text {
+      width: 30.625rem;
+      margin-left: 10%;
+    }
+  }
+}

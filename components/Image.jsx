@@ -2,18 +2,17 @@
 /* eslint-disable import/no-dynamic-require */
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../styles/Image.module.scss';
 
 const Image = ({ bg, src, type, alt, position, crop, noBlur, fade }) => (
   <div
-    className={styles.imageWrap}
+    className="relative inset-0 w-full h-full overflow-hidden"
     style={{
       position: bg ? 'absolute' : 'relative',
     }}
   >
     {!noBlur && (
       <img
-        className={styles.placeholder}
+        className="object-cover object-center w-full h-full"
         src={require(`../assets/images/${src}?lqip`)}
         alt={alt}
         style={{
@@ -22,7 +21,7 @@ const Image = ({ bg, src, type, alt, position, crop, noBlur, fade }) => (
       />
     )}
     <picture
-      className={styles.image}
+      className="absolute inset-0"
       style={{
         top: crop.top ? `-${crop.top}%` : 0,
         right: crop.right ? `-${crop.right}%` : 0,
@@ -36,6 +35,7 @@ const Image = ({ bg, src, type, alt, position, crop, noBlur, fade }) => (
       />
       <source srcSet={require(`../assets/images/${src}`)} type={type} />
       <img
+        className="w-full h-full object-center object-cover"
         src={require(`../assets/images/${src}`)}
         alt={alt}
         loading="lazy"
@@ -44,7 +44,13 @@ const Image = ({ bg, src, type, alt, position, crop, noBlur, fade }) => (
         }}
       />
     </picture>
-    {bg && <div className={`${styles.overlay} ${fade ? styles.fade : ''}`} />}
+    {bg && (
+      <div
+        className={`absolute inset-0 bg-overlay ${
+          fade ? 'bg-overlay-fade' : ''
+        }`}
+      />
+    )}
   </div>
 );
 

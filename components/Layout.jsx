@@ -4,15 +4,14 @@ import Image from './Image';
 import Head from './Head';
 import Nav from './Nav';
 import Footer from './Footer';
-import styles from '../styles/Layout.module.scss';
 
 const Layout = ({ background, title, header, description, children }) => {
   const { src, type, position, crop } = background;
   return (
-    <div className={styles.root}>
+    <div className="relative w-full h-full">
       <Head title={title} />
-      <div className={styles.container}>
-        <header>
+      <div className="absolute inset-0 flex flex-col overflow-auto">
+        <header className="relative flex flex-col h-screen-2/3">
           {background.src && (
             <Image
               bg
@@ -25,7 +24,7 @@ const Layout = ({ background, title, header, description, children }) => {
             />
           )}
           <Nav />
-          <div className={styles.headerContent}>
+          <div className="flex w-full flex-1 flex-col items-center p-3 z-10 md:mt-32">
             <h1>{header}</h1>
             <h4>{description}</h4>
           </div>

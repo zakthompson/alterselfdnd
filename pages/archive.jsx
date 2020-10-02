@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import Layout from '../components/Layout';
 import { getChapters } from '../utils/chapters';
-import styles from '../styles/Archive.module.scss';
 
 const Archive = ({ chapters }) => (
   <Layout
@@ -16,7 +15,7 @@ const Archive = ({ chapters }) => (
       position: '35% 80%',
     }}
   >
-    <div className={styles.chapters}>
+    <div className="flex flex-col items-center mt-10">
       {chapters.map((chapter) => {
         const { id, title } = chapter;
         return (

@@ -4,12 +4,11 @@ import Image from './Image';
 import Head from './Head';
 import Nav from './Nav';
 import Footer from './Footer';
-import styles from '../styles/FullscreenLayout.module.scss';
 
 const FullscreenLayout = ({ background, title, children }) => {
   const { src, type, position, crop } = background;
   return (
-    <div className={styles.root}>
+    <div className="relative w-full h-full">
       <Head title={title} />
       {background.src && (
         <Image
@@ -21,9 +20,9 @@ const FullscreenLayout = ({ background, title, children }) => {
           alt="Background"
         />
       )}
-      <div className={styles.container}>
+      <div className="absolute inset-0 overflow-auto flex flex-col">
         <Nav />
-        <main>{children}</main>
+        <main className="relative flex-1">{children}</main>
         <Footer />
       </div>
     </div>
