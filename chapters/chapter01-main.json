@@ -205,24 +205,6 @@
       "reactions": []
     },
     {
-      "id": "708738314731257937",
-      "type": "Default",
-      "timestamp": "2020-05-09T17:53:01.953+00:00",
-      "timestampEdited": null,
-      "isPinned": false,
-      "content": "@Osteel, feel free to describe your character",
-      "author": {
-        "id": "169249000829091850",
-        "name": "Pleebz",
-        "discriminator": "0001",
-        "isBot": false,
-        "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
-      },
-      "attachments": [],
-      "embeds": [],
-      "reactions": []
-    },
-    {
       "id": "708740981477867542",
       "type": "Default",
       "timestamp": "2020-05-09T18:03:37.755+00:00",
@@ -318,24 +300,6 @@
           "fields": []
         }
       ],
-      "reactions": []
-    },
-    {
-      "id": "708744153588170862",
-      "type": "Default",
-      "timestamp": "2020-05-09T18:16:14.045+00:00",
-      "timestampEdited": null,
-      "isPinned": false,
-      "content": "@Ostil, you can now describe _your_ character",
-      "author": {
-        "id": "169249000829091850",
-        "name": "Pleebz",
-        "discriminator": "0001",
-        "isBot": false,
-        "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
-      },
-      "attachments": [],
-      "embeds": [],
       "reactions": []
     },
     {
@@ -1017,7 +981,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -1280,7 +1244,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -1620,7 +1584,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -1939,24 +1903,6 @@
       "reactions": []
     },
     {
-      "id": "708768704296517632",
-      "type": "Default",
-      "timestamp": "2020-05-09T19:53:47.39+00:00",
-      "timestampEdited": null,
-      "isPinned": false,
-      "content": "@Wolverbane You can feel free to describe your character before responding",
-      "author": {
-        "id": "169249000829091850",
-        "name": "Pleebz",
-        "discriminator": "0001",
-        "isBot": false,
-        "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
-      },
-      "attachments": [],
-      "embeds": [],
-      "reactions": []
-    },
-    {
       "id": "708769707309924382",
       "type": "Default",
       "timestamp": "2020-05-09T19:57:46.527+00:00",
@@ -2024,7 +1970,7 @@
       "timestamp": "2020-05-09T20:00:09.804+00:00",
       "timestampEdited": null,
       "isPinned": false,
-      "content": "!t Well, these fine folks don\u2019t look too green...",
+      "content": "",
       "author": {
         "id": "169247181390348291",
         "name": "Wolverbane",
@@ -2033,7 +1979,25 @@
         "avatarUrl": "https://cdn.discordapp.com/avatars/169247181390348291/4cbfd7a9bb29f4a2c70c3321a5f4c451.png"
       },
       "attachments": [],
-      "embeds": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": null,
+          "timestamp": null,
+          "description": "\u0022Well, these fine folks don\u2019t look too green...\u0022",
+          "author": {
+            "name": "Rowan \u201CRuggo\u201D Rhododendron",
+            "url": null,
+            "iconUrl": "https://cdn.discordapp.com/avatars/169247181390348291/4cbfd7a9bb29f4a2c70c3321a5f4c451.webp?size=1024"
+          },
+          "thumbnail": {
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/4524/815/150/163/636720571977432274.jpeg",
+            "width": 150,
+            "height": 163
+          },
+          "fields": []
+        }
+      ],
       "reactions": []
     },
     {
@@ -2073,7 +2037,7 @@
       "timestamp": "2020-05-09T20:05:55.542+00:00",
       "timestampEdited": null,
       "isPinned": false,
-      "content": "!t Names Rowan, I\u2019ll be settin\u2019 you up for the night before we head off on our little journey.",
+      "content": "",
       "author": {
         "id": "169247181390348291",
         "name": "Wolverbane",
@@ -2082,7 +2046,25 @@
         "avatarUrl": "https://cdn.discordapp.com/avatars/169247181390348291/4cbfd7a9bb29f4a2c70c3321a5f4c451.png"
       },
       "attachments": [],
-      "embeds": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": null,
+          "timestamp": null,
+          "description": "\u0022Name\u2019s Rowan, I\u2019ll be settin\u2019 you up for the night before we head off on our little journey.\u0022",
+          "author": {
+            "name": "Rowan \u201CRuggo\u201D Rhododendron",
+            "url": null,
+            "iconUrl": "https://cdn.discordapp.com/avatars/169247181390348291/4cbfd7a9bb29f4a2c70c3321a5f4c451.webp?size=1024"
+          },
+          "thumbnail": {
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/4524/815/150/163/636720571977432274.jpeg",
+            "width": 150,
+            "height": 163
+          },
+          "fields": []
+        }
+      ],
       "reactions": []
     },
     {
@@ -3167,7 +3149,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -3507,7 +3489,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -4074,7 +4056,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -5489,7 +5471,7 @@
           "title": "",
           "url": null,
           "timestamp": null,
-          "description": "As Storm looks around, he hears faint lure playing coming from one of the corners of the tavern. Over the hustle and bustle, the faint sound of several voices singing a folk song can be heard, but you\u0027re unable to make out the words or see the lone musician who is playing.",
+          "description": "As Storm looks around, he hears faint lute playing coming from one of the corners of the tavern. Over the hustle and bustle, the faint sound of several voices singing a folk song can be heard, but you\u0027re unable to make out the words or see the lone musician who is playing.",
           "author": {
             "name": "Dungeon Master",
             "url": null,
@@ -5498,24 +5480,6 @@
           "fields": []
         }
       ],
-      "reactions": []
-    },
-    {
-      "id": "709133583469772870",
-      "type": "Default",
-      "timestamp": "2020-05-10T20:03:41.364+00:00",
-      "timestampEdited": null,
-      "isPinned": false,
-      "content": "Lute* not lure",
-      "author": {
-        "id": "169249000829091850",
-        "name": "Pleebz",
-        "discriminator": "0001",
-        "isBot": false,
-        "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
-      },
-      "attachments": [],
-      "embeds": [],
       "reactions": []
     },
     {
@@ -7072,24 +7036,6 @@
       "reactions": []
     },
     {
-      "id": "709466027750326322",
-      "type": "Default",
-      "timestamp": "2020-05-11T18:04:42.257+00:00",
-      "timestampEdited": null,
-      "isPinned": false,
-      "content": "(@Ostil, make a Perception check)",
-      "author": {
-        "id": "169249000829091850",
-        "name": "Pleebz",
-        "discriminator": "0001",
-        "isBot": false,
-        "avatarUrl": "https://cdn.discordapp.com/avatars/169249000829091850/839da16ddd7caa9ac717644dc1c0bb19.png"
-      },
-      "attachments": [],
-      "embeds": [],
-      "reactions": []
-    },
-    {
       "id": "709466031663349780",
       "type": "Default",
       "timestamp": "2020-05-11T18:04:43.19+00:00",
@@ -7842,7 +7788,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -8286,7 +8232,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -8425,7 +8371,7 @@
             "iconUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.webp?size=1024"
           },
           "thumbnail": {
-            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10353/751/150/151/1581111423-28160468.jpeg",
+            "url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10446/164/150/150/1581111423-28160468.jpeg",
             "width": 150,
             "height": 151
           },
@@ -10210,7 +10156,7 @@
           "title": "",
           "url": null,
           "timestamp": null,
-          "description": "\u0022Also seeing as each requires reporting back to the Captain, it might not go so well. Though we could always hope that completion of these contracts are not important to him than fairness ...\u0022",
+          "description": "\u0022Also seeing as each requires reporting back to the Captain, it might not go so well. Though we could always hope that completion of these contracts are more important to him than fairness ...\u0022",
           "author": {
             "name": "Cain Vance",
             "url": null,
@@ -10260,24 +10206,6 @@
           "fields": []
         }
       ],
-      "reactions": []
-    },
-    {
-      "id": "709821156227678248",
-      "type": "Default",
-      "timestamp": "2020-05-12T17:35:51.484+00:00",
-      "timestampEdited": null,
-      "isPinned": false,
-      "content": "(correction: are _more_ important)",
-      "author": {
-        "id": "140305629238657025",
-        "name": "Osteel",
-        "discriminator": "0071",
-        "isBot": false,
-        "avatarUrl": "https://cdn.discordapp.com/avatars/140305629238657025/b04d00b5d221b8fe4ba3da41c6a7b44a.png"
-      },
-      "attachments": [],
-      "embeds": [],
       "reactions": []
     },
     {
@@ -11288,7 +11216,7 @@
           "title": "",
           "url": null,
           "timestamp": null,
-          "description": "__While Storm barters for the many odd pieces, Govath continued to walk the aisles picking up, shaking and examining various contraptions.  Shortly after hearing Storm leave by the ringing of the door bell, he heads out the door and thanks Wynn for his time on the way out._",
+          "description": "_While Storm barters for the many odd pieces, Govath continued to walk the aisles picking up, shaking and examining various contraptions.  Shortly after hearing Storm leave by the ringing of the door bell, he heads out the door and thanks Wynn for his time on the way out._",
           "author": {
             "name": "Govath Forgearm",
             "url": null,
