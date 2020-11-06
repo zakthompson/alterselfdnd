@@ -15,7 +15,7 @@ export default function Message({ message, isBookmarked, onBookmark }) {
 
   return (
     <div
-      className="relative px-4 py-4 mx-2 my-4 font-thin bg-gray-900 border cursor-pointer md:py-8 md:px-6 md:mx-auto md:w-5/6 message md:w-3/5 blade-border"
+      className="relative px-4 py-4 mx-2 my-4 font-thin bg-gray-900 border cursor-pointer md:py-8 md:px-6 md:mx-auto message md:w-3/5 blade-border"
       onClick={handleClick}
       ref={messageEl}
     >
