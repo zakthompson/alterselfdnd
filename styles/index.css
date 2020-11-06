@@ -26,6 +26,10 @@
     @apply mx-0 my-6;
   }
 
+  strong {
+    @apply font-semibold;
+  }
+
   .blur {
     filter: blur(25px);
   }
@@ -58,10 +62,51 @@
     @apply w-full mx-3 mt-6;
   }
 
+  .blade-border {
+    border-top-color: #2d3748;
+    border-right-color: #4a5568;
+    border-bottom-color: #4a5568;
+    border-left-color: #2d3748;
+  }
+
+  .bookmark {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .bookmark.active {
+    display: block;
+  }
+
+  .bookmark.active svg {
+    fill: #466E3C;
+  }
+
+  .message:hover .bookmark {
+    display: block;
+  }
+
+  .top-button {
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   @screen md {
     .hero-text {
       width: 30.625rem;
       margin-left: 10%;
+    }
+
+    .bookmark {
+      display: none;
+      left: -3rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .top-button {
+      top: 2rem;
     }
   }
 }

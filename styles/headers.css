@@ -8,7 +8,7 @@
   }
 
   h1 {
-    @apply text-6xl;
+    @apply text-5xl;
   }
 
   h2 {
@@ -16,16 +16,20 @@
   }
 
   h3 {
-    @apply mt-5 text-4xl;
+    @apply mt-5 text-2xl;
   }
 
   h4 {
-    @apply mt-6 text-3xl;
+    @apply mt-6 text-xl;
+  }
+
+  h5 {
+    @apply mb-2 text-xl font-semibold text-gold;
   }
 
   @screen md {
     h1 {
-      @apply text-7xl;
+      @apply text-6xl;
     }
 
     h3 {

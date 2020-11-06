@@ -38,7 +38,11 @@ export function getChapterData(id) {
   return {
     id,
     title,
-    messages: chapterJson.messages.map(stripMessage),
+    messages: chapterJson.messages
+      // Filter out messages we don't want
+      .filter((m) => !(m.content.indexOf('Invalid input') === 0))
+      .filter((m) => !(m.content.indexOf('Pinned a message.') === 0))
+      .map(stripMessage),
   };
 }
 

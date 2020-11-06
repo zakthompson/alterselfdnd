@@ -8,7 +8,7 @@ module.exports = {
   purge: ['./components/**/*.jsx', './pages/**/*.jsx'],
   theme: {
     fontFamily: {
-      body: ['Crimson Text', 'serif'],
+      body: ['Crimson Pro', 'serif'],
       sans: ['Open Sans', 'sans-serif'],
     },
     fontSize: {
@@ -18,11 +18,12 @@ module.exports = {
       '5xl': ['3.125rem', '3.125rem'],
     },
     extend: {
-      fontSize: {
-        '7xl': '10rem',
-      },
       colors: {
-        gold: '#D4AF37',
+        gold: {
+          light: '#F1C73E',
+          default: '#D4AF37',
+          dark: '#AC8E2D',
+        },
       },
       margin: {
         '-72': '-18rem',
