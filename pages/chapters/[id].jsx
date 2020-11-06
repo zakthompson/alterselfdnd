@@ -26,7 +26,7 @@ export default function Chapter({ chapterData }) {
 
   function jumpToBookmark(container) {
     container.current.scrollTo({
-      top: bookmark.split('|')[1],
+      top: bookmark.split('|')[1] - 15,
       behavior: 'smooth',
     });
   }

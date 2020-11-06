@@ -5,7 +5,10 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: ['./components/**/*.jsx', './pages/**/*.jsx'],
+  purge: {
+    content: ['./components/**/*.jsx', './pages/**/*.jsx'],
+    whitelist: ['__next'],
+  },
   theme: {
     fontFamily: {
       body: ['Crimson Pro', 'serif'],
