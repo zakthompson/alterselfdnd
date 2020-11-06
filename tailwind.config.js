@@ -7,7 +7,6 @@ module.exports = {
   },
   purge: {
     content: ['./components/**/*.jsx', './pages/**/*.jsx'],
-    whitelist: ['__next'],
   },
   theme: {
     fontFamily: {
